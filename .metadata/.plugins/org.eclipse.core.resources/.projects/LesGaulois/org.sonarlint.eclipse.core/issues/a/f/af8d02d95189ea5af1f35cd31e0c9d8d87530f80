@@ -1,0 +1,14 @@
+
+M
+java:S1116"Remove this empty statement.(ÒñÊËøÿÿÿÿH¡RMINORZ
+CODE_SMELL
+V	java:S106#"+Replace this use of System.out by a logger.(× »H£RMAJORZ
+CODE_SMELL
+[	java:S106"+Replace this use of System.out by a logger.(ÒñÊËøÿÿÿÿH RMAJORZ
+CODE_SMELL
+\
+java:S1068"+Remove this unused "village" private field.(¢”ÙıÿÿÿÿH§RMAJORZ
+CODE_SMELL
+[
+java:S1068"/Remove this unused "effetPotion" private field.(Ş’ñçH¤RMAJORZ
+CODE_SMELL

@@ -1,0 +1,44 @@
+package personnages;
+
+
+
+public class Romain {
+	private String nom;
+	private int force;
+	
+	public Romain(String nom, int force) {
+        this.nom = nom;
+        if (force >= 0) {
+            this.force = force;
+        } else {
+            System.out.println("La force d'un Romain ne peut pas être négative. La force de " + nom + " a été initialisée à 1.");
+            this.force = 1; // Valeur par défaut
+        }
+    }
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void parler(String texte) {
+		System.out.println(prendreParole() + "<<" + texte + ">>");;
+	}
+	
+	public String prendreParole() {
+		return "Le Romain " + nom +" : ";
+	}
+	
+	public void recevoirCoup(int forceCoup) {
+		force -= forceCoup;
+		if (force > 0) {
+			parler("Aïe");
+		} else {
+			parler("J'abandonne...");
+		}
+	}
+	public static void main(String[] args) {
+        Romain minus = new Romain("Minus", -6); // Force de Minus est maintenant -6
+        minus.prendreParole();
+        minus.parler("UN GAU... UN GAUGAU...");
+    }
+}
