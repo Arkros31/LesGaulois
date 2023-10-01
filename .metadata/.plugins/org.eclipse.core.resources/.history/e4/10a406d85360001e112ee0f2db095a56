@@ -1,0 +1,31 @@
+package Histoire;
+
+import personnages.Gaulois;
+import personnages.Romain;
+import personnages.Druide;
+	
+public class Scenario {
+
+    public static void main(String[] args) {
+        Gaulois asterix = new Gaulois("Asterix", 8);
+        Gaulois obelix = new Gaulois("Obélix", 25);
+        Romain minus = new Romain("Minus", 6);
+        Druide panoramix = new Druide("Panoramix", 5, 10);
+
+        System.out.println("Le druide " + panoramix.getNom() + " : \"Bonjour, je suis le druide " + panoramix.getNom() + " et ma potion peut aller d'une force " + panoramix.getEffetPotionMin() + " à " + panoramix.getEffetPotionMax() + ".\"");
+        System.out.println("Le druide " + panoramix.getNom() + " : \"Je vais aller préparer une petite potion...\"");
+        panoramix.preparerPotion();
+        System.out.println("Le druide " + panoramix.getNom() + " : \"Non, " + obelix.getNom() + "!... Tu n'auras pas de potion magique !\"");
+        System.out.println("Le gaulois " + obelix.getNom() + " : \"Par Bélénos, ce n'est pas juste !\"");
+
+        asterix.prendreParole();
+        asterix.parler("Merci Druide, je sens que ma force est " + asterix.getForce() + " fois décuplée.");
+        asterix.parler("Bonjour");
+
+        minus.prendreParole();
+        minus.parler("UN GAU... UN GAUGAU...");
+
+        System.out.println(asterix.getNom() + " envoie un grand coup dans la mâchoire de " + minus.getNom());
+        asterix.frapper(minus);
+    }
+}
