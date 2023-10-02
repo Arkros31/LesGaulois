@@ -1,25 +1,6 @@
 
-
-java:S11928"KDefine a constant instead of duplicating this literal "Le soldat " 4 times.(°÷Ü8Ë—¡Û®1HÉRCRITICALZ
-CODE_SMELL
-b	java:S106/"+Replace this use of System.out by a logger.(Æ…Üøÿÿÿÿ8Ê”İÚ®1HºRMAJORZ
-CODE_SMELL
-]	java:S106<"+Replace this use of System.out by a logger.(÷Ò™8Ë—¡Û®1HĞRMAJORZ
-CODE_SMELL
-]	java:S106D"+Replace this use of System.out by a logger.(­Ö¡ù8Ë—¡Û®1HÒRMAJORZ
-CODE_SMELL
-W	java:S1314""Add a default case to this switch.(£·ïİ8Ë—¡Û®1HÎRCRITICALZ
-CODE_SMELL
-V	java:S106"+Replace this use of System.out by a logger.(ßˆ¯ƒHRMAJORZ
-CODE_SMELL
-]	java:S1068"+Replace this use of System.out by a logger.(°÷Ü8Ë—¡Û®1HÏRMAJORZ
-CODE_SMELL
-b	java:S106"+Replace this use of System.out by a logger.(ÒñÊËøÿÿÿÿ8ğÅÈÚ®1H·RMAJORZ
+b	java:S106"+Replace this use of System.out by a logger.(ÒñÊËøÿÿÿÿ8ğÅÈÚ®1H§RMAJORZ
 CODE_SMELL
 M
-java:S1116"Remove this empty statement.(ÒñÊËøÿÿÿÿHRMINORZ
-CODE_SMELL
-]	java:S106@"+Replace this use of System.out by a logger.(°÷Ü8Ë—¡Û®1HÑRMAJORZ
-CODE_SMELL
-]	java:S106&"+Replace this use of System.out by a logger.(ãÄƒ8Ê”İÚ®1H¹RMAJORZ
+java:S1116"Remove this empty statement.(ÒñÊËøÿÿÿÿH¨RMINORZ
 CODE_SMELL

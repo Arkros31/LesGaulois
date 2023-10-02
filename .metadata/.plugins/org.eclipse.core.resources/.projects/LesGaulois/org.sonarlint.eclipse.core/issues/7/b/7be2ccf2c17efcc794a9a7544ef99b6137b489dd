@@ -1,13 +1,13 @@
 
-]	java:S1063"+Replace this use of System.out by a logger.(ñ‰æˆ8¤÷¥Ú®1HšRMAJORZ
+b	java:S1060"+Replace this use of System.out by a logger.(‹‚Ñ¡ıÿÿÿÿ8¤÷¥Ú®1H´RMAJORZ
 CODE_SMELL
-b	java:S106A"+Replace this use of System.out by a logger.(æ‰›åşÿÿÿÿ8¤÷¥Ú®1H›RMAJORZ
+]	java:S106-"+Replace this use of System.out by a logger.(†­µ8¤÷¥Ú®1HµRMAJORZ
 CODE_SMELL
-]	java:S106"+Replace this use of System.out by a logger.(‰¸ğ÷8¤÷¥Ú®1H–RMAJORZ
+]	java:S106"+Replace this use of System.out by a logger.(‰¸ğ÷8¤÷¥Ú®1H¶RMAJORZ
 CODE_SMELL
-]	java:S106-"+Replace this use of System.out by a logger.(†­µ8¤÷¥Ú®1H˜RMAJORZ
+b	java:S106&"+Replace this use of System.out by a logger.(Å¾·Óÿÿÿÿÿ8¤÷¥Ú®1H·RMAJORZ
 CODE_SMELL
-b	java:S1060"+Replace this use of System.out by a logger.(‹‚Ñ¡ıÿÿÿÿ8¤÷¥Ú®1H™RMAJORZ
+b	java:S106A"+Replace this use of System.out by a logger.(æ‰›åşÿÿÿÿ8¤÷¥Ú®1H¸RMAJORZ
 CODE_SMELL
-b	java:S106&"+Replace this use of System.out by a logger.(Å¾·Óÿÿÿÿÿ8¤÷¥Ú®1H—RMAJORZ
+]	java:S1063"+Replace this use of System.out by a logger.(ñ‰æˆ8¤÷¥Ú®1H¹RMAJORZ
 CODE_SMELL

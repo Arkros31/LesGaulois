@@ -1,0 +1,38 @@
+
+b	java:S1069"+Replace this use of System.out by a logger.(Ææ‚¤úÿÿÿÿ8û ˆ¯1HüRMAJORZ
+CODE_SMELL
+V	java:S106#"+Replace this use of System.out by a logger.(× »H¢RMAJORZ
+CODE_SMELL
+b	java:S106."+Replace this use of System.out by a logger.(’À›åşÿÿÿÿ8û ˆ¯1HúRMAJORZ
+CODE_SMELL
+[	java:S106"+Replace this use of System.out by a logger.(İÖø…øÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+m
+java:S1117+":Rename "trophee" which hides the field declared at line 7.(½ÿôª8û ˆ¯1HùRMAJORZ
+CODE_SMELL
+]	java:S106,"+Replace this use of System.out by a logger.(şĞÉµ8û ˆ¯1HûRMAJORZ
+CODE_SMELL
+^
+java:S1068"+Remove this unused "trophee" private field.(¥±ôØ8¬å‰ˆ¯1HßRMAJORZ
+CODE_SMELL
+M
+java:S1116"Remove this empty statement.(ÒñÊËøÿÿÿÿH RMINORZ
+CODE_SMELL
+V	java:S106)"+Replace this use of System.out by a logger.(Òİ›·H£RMAJORZ
+CODE_SMELL
+‚
+java:S1192"LDefine a constant instead of duplicating this literal "Le Gaulois " 3 times.(šºäı8û ˆ¯1HòRCRITICALZ
+CODE_SMELL
+b	java:S106"+Replace this use of System.out by a logger.(ÒñÊËøÿÿÿÿ8¬å‰ˆ¯1HŞRMAJORZ
+CODE_SMELL
+b	java:S106D"+Replace this use of System.out by a logger.(Ñœøşÿÿÿÿ8û ˆ¯1HıRMAJORZ
+CODE_SMELL
+‚	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç×â8šÁºˆ¯1H‘RMINORZ
+CODE_SMELL
+ˆ	java:S116"VRename this field "nb_trophees" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÿªÏ8šÁºˆ¯1H’RMINORZ
+CODE_SMELL
+q
+java:S1172
+"?Remove these unused method parameters "trophee", "nb_trophees".(ç×â8šÁºˆ¯1H“RMAJORZ
+CODE_SMELL

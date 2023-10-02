@@ -1,0 +1,19 @@
+
+M
+java:S1116 "Remove this empty statement.(ÒñÊËøÿÿÿÿH”RMINORZ
+CODE_SMELL
+[	java:S106 "+Replace this use of System.out by a logger.(ÒñÊËøÿÿÿÿH“RMAJORZ
+CODE_SMELL
+E
+java:S2119("Save and re-use this "Random".(¼ÝÅfH–RCRITICALZBUG
+V	java:S106."+Replace this use of System.out by a logger.(¤ÍÑòH™RMAJORZ
+CODE_SMELL
+V	java:S1067"+Replace this use of System.out by a logger.(èïÈH›RMAJORZ
+CODE_SMELL
+i
+java:S1117)">Rename "forcePotion" which hides the field declared at line 9.(¶ÝœH—RMAJORZ
+CODE_SMELL
+[	java:S106,"+Replace this use of System.out by a logger.(…¸¼üùÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+[	java:S1064"+Replace this use of System.out by a logger.(ªú³»üÿÿÿÿHšRMAJORZ
+CODE_SMELL

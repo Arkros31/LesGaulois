@@ -1,16 +1,16 @@
 
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·½âHªRMINORZ
+CODE_SMELL
+V	java:S106"+Replace this use of System.out by a logger.(¨³áóH«RMAJORZ
+CODE_SMELL
+[	java:S106"+Replace this use of System.out by a logger.(õ ·ÂÿÿÿÿÿH¬RMAJORZ
+CODE_SMELL
+V	java:S106"+Replace this use of System.out by a logger.(Ô·ŒH­RMAJORZ
+CODE_SMELL
+[	java:S106"+Replace this use of System.out by a logger.(†­ÌĞøÿÿÿÿH®RMAJORZ
+CODE_SMELL
+V	java:S106"+Replace this use of System.out by a logger.(é’–“H¯RMAJORZ
+CODE_SMELL
 
-java:S1192"KDefine a constant instead of duplicating this literal "Le druide " 3 times.(†­ÌĞøÿÿÿÿH‚RCRITICALZ
-CODE_SMELL
-…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·½âH†RMINORZ
-CODE_SMELL
-[	java:S106"+Replace this use of System.out by a logger.(†­ÌĞøÿÿÿÿH‡RMAJORZ
-CODE_SMELL
-V	java:S106"+Replace this use of System.out by a logger.(¨³áóHˆRMAJORZ
-CODE_SMELL
-V	java:S106"+Replace this use of System.out by a logger.(Ô·ŒH‰RMAJORZ
-CODE_SMELL
-[	java:S106"+Replace this use of System.out by a logger.(õ ·ÂÿÿÿÿÿHŠRMAJORZ
-CODE_SMELL
-V	java:S106"+Replace this use of System.out by a logger.(é’–“H‹RMAJORZ
+java:S1192"KDefine a constant instead of duplicating this literal "Le druide " 3 times.(†­ÌĞøÿÿÿÿH°RCRITICALZ
 CODE_SMELL

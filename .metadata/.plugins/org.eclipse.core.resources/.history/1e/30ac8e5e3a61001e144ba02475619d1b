@@ -1,0 +1,72 @@
+package personnages;
+
+public class Gaulois {
+	private String nom;
+	private int force;
+	private int effetPotion = 1;
+	private Trophee[] trophee;
+	private 
+	
+	public Gaulois(String nom, int force) {
+		this.nom = nom;
+		this.force = force;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+
+	public void boirePotion(int forcePotion) {
+        effetPotion = forcePotion;
+        System.out.println("Merci Druide, je sens que ma force est " + effetPotion + " fois décuplée.");
+    }
+	
+	public void parler(String texte) {
+		System.out.println(prendreParole() + "<<" + texte + ">>");;
+	}
+	
+	public String prendreParole() {
+		return "Le Gaulois " + nom +" : ";
+	}
+	
+	public void frapper(Romain romain) {
+		System.out.println(nom + "envoie un grand coup dans la machoire de " + romain.getNom());
+		romain.recevoirCoup((force / 3)*effetPotion);
+	}
+	
+	 public void faireUneDonation(Musee musee) {
+	        if (nbTrophees > 0) {
+	            System.out.println("Le Gaulois " + nom + " : \"Je donne au musée tous mes trophées :");
+	            for (int i = 0; i < nbTrophees; i++) {
+	                Trophee trophee = trophees[i];
+	                System.out.println("- " + trophee.getEquipement());
+	            }
+	            System.out.println("\"");
+
+	            // Transférer les trophées au musée
+	            for (int i = 0; i < nbTrophees; i++) {
+	                musee.donnerTrophees(this, trophees[i].getEquipement());
+	            }
+
+	            // Réinitialiser le tableau des trophées du Gaulois
+	            trophees = new Trophee[200];
+	            nbTrophees = 0;
+	        } else {
+	            System.out.println("Le Gaulois " + nom + " n'a aucun trophée à donner au musée.");
+	        }
+	    }
+	
+	@Override
+	public String toString() {
+		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
+	}
+	
+	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Asterix",8);
+		System.out.println(asterix);
+		asterix.prendreParole();
+		asterix.parler("Bonjour je suis asterix");
+		asterix.frapper(new Romain("Cesar", 10));
+	}
+
+}
